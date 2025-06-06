@@ -1,0 +1,127 @@
+@media only screen and (max-width: 500px){
+.imgcontainer {
+	  height: 657px;
+ 	  width: 662px;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;  
+}
+.top-image {
+	height: 335px;
+	width: 715px;
+}
+.txt {
+	font-size: 55px;
+}
+.title{
+  margin-left: 30px;
+}
+.paragraph{
+	top: 466px;
+	left: 17px;
+	right: 27px;
+	font-size: 25px;
+}
+
+.clock{
+	position: absolute;
+	top: 579px;
+	left: 17px;
+	height: 56px;
+	width: 56px;
+}
+
+.time{
+	position: absolute;
+	top: 585px;
+	left: 95px;
+	font-family:"Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #8A8787;
+	line-height: 200%;
+}
+
+.burger-icon{
+    display: block;
+    margin-left: 40px;
+ }
+
+nav{
+    display: none;
+ }
+
+ 
+.pics {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.left {
+	display: block;
+}
+
+.right {
+  display: block;
+}
+
+.big-img1 {
+  width: 658px;
+  height: 330px;
+}
+
+.small-img {
+  width: 658px;
+  height: 330px;
+  margin-bottom: 20px;
+  border-radius: 3%;
+}
+
+.bridge-wrapper {
+  position: relative;
+  display: block;
+  width: 658px;
+  height: 330px;
+  margin-bottom: 20px;
+}
+
+.big-img2 {
+  width: 658px;
+  height: 330px;
+  display: block;
+  border-radius: 3%;
+}
+
+.bridge-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.liltxt {
+  display: none
+}
+
+.phrase {
+  display: none;
+}
+
+.logo2{
+	display: inline-block;
+	vertical-align: text-top;
+	margin-left: 166px;
+	margin-top: 60px;
+
+}
+
+}
